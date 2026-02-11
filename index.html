@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>3050 Game</title>
+</head>
+
+<body style="text-align:center;font-family:Arial">
+
+<h1>🎮 3050 Game CI/CD on EC2</h1>
+
+<button onclick="add()">Play</button>
+
+<h2 id="score">0</h2>
+
+<script>
+let score = 0;
+function add(){
+  score += 2;
+  document.getElementById("score").innerText = score;
+}
+</script>
+
+</body>
+</html>
